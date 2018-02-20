@@ -2,6 +2,7 @@
 #![feature(asm)]
 
 #[macro_use] extern crate serde_derive;
+#[macro_use] extern crate bitflags;
 extern crate syscall;
 extern crate toml;
 
